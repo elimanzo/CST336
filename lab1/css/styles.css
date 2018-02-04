@@ -1,0 +1,81 @@
+    header, nav, footer, #content {
+        width: 960px;
+        margin: 0 auto; 
+        text-align: center; 
+    }
+    
+    body {
+        background-color: #1B3A6B;
+        color: white;
+    }
+    
+    footer {
+        color: gray;
+        clear: left;
+    }
+    
+    h1 {
+        font-family: 'Carter One';
+        font-size: 4em;
+        margin-bottom: 0px;
+    }
+
+    nav a {
+        padding:15px;
+        padding-bottom:4px;
+        font-size: 1.8em;
+        color: white;
+        text-decoration: none;
+    }
+    
+    nav a:hover, #current {  /*pseudo class*/
+         border-bottom:2px white solid;
+         font-size: 2em;
+         transition: .9s;
+    }
+    
+    aside, section {
+        float:left;
+    }
+    
+    aside {
+        text-align: left;
+        padding-left: 10px;
+        padding-top: 30px;
+        width:200px;
+        font-size: 1.3em;
+    }
+    
+    table {
+        margin: 0px auto;
+    }
+    
+    td {
+        padding-right: 10px;
+        font-size: 1.3em;
+    }
+    
+    td strong {
+        color: #772f2f;
+    }
+    
+    ul {
+        text-align: left;
+        padding-left: 200px;
+    }
+    
+    #myPicture {
+        border-radius: 100px;
+    }
+    
+    #table-header {
+        background-color: #7a828e;
+    }
+    
+    .table-row {
+        background-color: grey;
+    }
+    
+    .hobby {
+        color: #dd0808;
+    }

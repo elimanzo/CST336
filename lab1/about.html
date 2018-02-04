@@ -14,6 +14,8 @@ in html
     <head>
         <meta charset ="utf-8" />
         <title> Eli Manzo: Personal Website</title>
+        <link href="css/styles.css" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Carter%20One" rel="stylesheet">
     </head>
 <!-- closing head -->
 
@@ -24,33 +26,27 @@ in html
              <h1> Eli Manzo </h1>
          </header>   
         
-        <hr width "50%" />
-        
         <nav>
-            <a href = "index.html"> Home </a>
-            <a href = "about.html"> About </a>
+            <hr width "50%" />
+            <a href = "index.html" > Home </a>
+            <a href = "about.html" id="current"> About </a>
             <a href = "contact.html"> Contact Me </a>
         </nav>
-        
         <br /> <br />
-        
         <div id = "content">
             <!-- Create the table to hold experience data -->
             <table>
-                
-               
-                
                 <tr id = "table-header">
                     <td><strong>Programming Language</strong></td>
                     <td><strong>Years Experience</strong></td>
                 </tr>
                 <tr class = "table-row">
-                    <td>Java</td>
-                    <td>1</td>
-                </tr>
-                <tr class = "table-row">
                     <td>C++</td>
                     <td>2</td>
+                </tr>
+                <tr class = "table-row">
+                    <td>Java</td>
+                    <td>1</td>
                 </tr>
                  <tr class = "table-row">
                     <td>Python</td>
@@ -58,24 +54,22 @@ in html
                 </tr>
             </table>
             <ul>
-                <li>Video games: I own a PC and like all kind of games, but my favorite type of games are FPS</li>
-                <li>Music: I enjoy listening to all kinds of music, but my favorite is hip hop.</li>
-                <li>TV shows: I enjoy watching shows. My favorite series is Breaking Bad.</li>
-                <li>Programming: I love solving problems. I spend time throughout the week solving problems on Kattis and Project Euler.</li>
+                <li><span class="hobby">Video games</span>: I own a PC and like all kind of games, but my favorite type of games are FPS</li>
+                <li><span class="hobby">Music</span>: I enjoy listening to all kinds of music, but my favorite is hip hop.</li>
+                <li><span class="hobby">TV shows</span>: I enjoy watching shows. My favorite series is Breaking Bad.</li>
+                <li><span class="hobby">Programming</span>: I love solving problems. I spend time throughout the week solving problems on Kattis and Project Euler.</li>
             </ul>
-            table {
-             margin: 0px auto;
-             }
         </div>
         
         <!-- This is the footer -->
         <!-- The footer goes inside the body but not always -->
         <footer>
             <hr>
-            Course Name, 2017&copy; Manzo <br />
-            <strong>Disclaimer:</strong> The information in this webpage
-            is fictitous. <br />
-            It is used for academic purposes only.
+             CST336 Internet Programming. 2018&copy; Manzo <br />
+             <strong>Disclaimer:</strong> The information in this webpage is fictitous. <br /> 
+             It is used for academic purposes only.
+            <br /><br />
+            <img id="csumbLogo" src="img/csumb_logo.png" alt="CSUMB Logo" />
         </footer>
         <!-- closing footer -->
         
