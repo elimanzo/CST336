@@ -1,0 +1,119 @@
+    header, nav, footer, #content {
+        
+        width: 1000px;
+        margin: 0 auto; 
+        text-align: center; 
+    }
+    p {
+       font-size: 21px 
+    }
+    a:link {
+         color: #ffff07;
+    }
+    a:visited {
+        color: #00ff21;
+    }
+    body {
+        background-image:url("../img/background.png");
+        color: White;
+    }
+    
+    #req_aside, #req_sec {
+        float:left;
+    }
+    
+    #req_aside2, #req_sec2 {
+        float:right;
+    }
+    
+    #req_aside{
+        text-align: left;
+        font-size: 1.3em;
+        padding-left: 40px;
+        padding-top: 30px;
+        width:400px;
+    }
+    
+    #req_aside2 {
+        text-align: left;
+        font-size: 1.3em;
+        padding-right: 40px;
+        padding-top: 30px;
+        width:400px;
+    }
+    
+    footer {
+        color: gray;
+        clear: left;
+    }
+    
+    h1 {
+        font-family: 'Open Sans';
+        font-size: 3em;
+        margin-bottom: 30px;
+    }
+    
+    h3 {
+        font-family: 'Carter One';
+        font-size: 1.8em;
+        margin-bottom: 0px;
+        border-bottom:2px white dotted;
+        
+    }
+    
+    hr {
+        width: 130%;
+        border: 0;
+        height: 2.5px;
+        background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), 
+        rgba(255, 255, 255, 0));
+    }
+
+    nav a {
+        padding:25px;
+        padding-bottom:4px;
+        font-size: 1.4em;
+        color: white;
+        text-decoration: none;
+        width: 50%;
+    }
+    
+    nav a:hover, #current {  /*pseudo class*/
+         border-bottom:2px white dotted;
+         font-size: 1.7em;
+         transition: .9s;
+    }
+    
+    nav a:visited {
+        color: white;
+    }
+    
+    article{
+        text-align: left;
+        padding-left: 30px;
+        padding-top: 30px;
+        font-size: 1.3em;
+        width: 900px;
+    }
+    
+    ol {
+        text-align: left;
+        padding-left: 20px;
+    }
+    
+    #sldc_pic, #maintenance_pic {
+        border-radius: 50px;
+    }
+    
+    .phase {
+        color: #daff26;
+    }
+    
+    #req_analysis, #development{
+        border-top-left-radius: 50px;
+        border-top-right-radius:50px;
+    }
+    #design, #testing{
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius:50px;
+    }
