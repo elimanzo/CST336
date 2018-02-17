@@ -1,1 +1,0 @@
-Welcome to Eli Manzo's CST336 Home Page!
