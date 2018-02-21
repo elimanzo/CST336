@@ -1,2 +1,238 @@
-[07-Feb-2018 23:50:53 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/ubuntu/workspace/elmanzo/Challenge/Challenge2/random_card.php on line 9
-[07-Feb-2018 23:51:02 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/ubuntu/workspace/elmanzo/Challenge/Challenge2/random_card.php on line 9
+[19-Feb-2018 23:35:34 UTC] PHP Parse error:  syntax error, unexpected ')', expecting '(' in /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php on line 16
+[19-Feb-2018 23:36:33 UTC] PHP Fatal error:  Cannot use [] for reading in /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php on line 8
+[19-Feb-2018 23:37:43 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php on line 20
+[19-Feb-2018 23:37:43 UTC] PHP Stack trace:
+[19-Feb-2018 23:37:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:0
+[19-Feb-2018 23:37:43 UTC] PHP   2. createPass() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:41
+[19-Feb-2018 23:37:43 UTC] PHP   3. array_push() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:20
+[19-Feb-2018 23:37:43 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php on line 24
+[19-Feb-2018 23:37:43 UTC] PHP Stack trace:
+[19-Feb-2018 23:37:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:0
+[19-Feb-2018 23:37:43 UTC] PHP   2. createPass() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:41
+[19-Feb-2018 23:37:43 UTC] PHP   3. array_push() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:24
+[19-Feb-2018 23:37:43 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php on line 24
+[19-Feb-2018 23:37:43 UTC] PHP Stack trace:
+[19-Feb-2018 23:37:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:0
+[19-Feb-2018 23:37:43 UTC] PHP   2. createPass() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:41
+[19-Feb-2018 23:37:43 UTC] PHP   3. array_push() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:24
+[19-Feb-2018 23:37:43 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php on line 20
+[19-Feb-2018 23:37:43 UTC] PHP Stack trace:
+[19-Feb-2018 23:37:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:0
+[19-Feb-2018 23:37:43 UTC] PHP   2. createPass() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:41
+[19-Feb-2018 23:37:43 UTC] PHP   3. array_push() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:20
+[19-Feb-2018 23:37:43 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php on line 20
+[19-Feb-2018 23:37:43 UTC] PHP Stack trace:
+[19-Feb-2018 23:37:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:0
+[19-Feb-2018 23:37:43 UTC] PHP   2. createPass() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:41
+[19-Feb-2018 23:37:43 UTC] PHP   3. array_push() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:20
+[19-Feb-2018 23:39:22 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php on line 20
+[19-Feb-2018 23:39:37 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php on line 20
+[19-Feb-2018 23:39:37 UTC] PHP Stack trace:
+[19-Feb-2018 23:39:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:0
+[19-Feb-2018 23:39:37 UTC] PHP   2. createPass() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:41
+[19-Feb-2018 23:39:37 UTC] PHP   3. array_push() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:20
+[19-Feb-2018 23:39:37 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php on line 24
+[19-Feb-2018 23:39:37 UTC] PHP Stack trace:
+[19-Feb-2018 23:39:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:0
+[19-Feb-2018 23:39:37 UTC] PHP   2. createPass() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:41
+[19-Feb-2018 23:39:37 UTC] PHP   3. array_push() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:24
+[19-Feb-2018 23:39:37 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php on line 24
+[19-Feb-2018 23:39:37 UTC] PHP Stack trace:
+[19-Feb-2018 23:39:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:0
+[19-Feb-2018 23:39:37 UTC] PHP   2. createPass() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:41
+[19-Feb-2018 23:39:37 UTC] PHP   3. array_push() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:24
+[19-Feb-2018 23:39:37 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php on line 20
+[19-Feb-2018 23:39:37 UTC] PHP Stack trace:
+[19-Feb-2018 23:39:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:0
+[19-Feb-2018 23:39:37 UTC] PHP   2. createPass() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:41
+[19-Feb-2018 23:39:37 UTC] PHP   3. array_push() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:20
+[19-Feb-2018 23:39:37 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php on line 24
+[19-Feb-2018 23:39:37 UTC] PHP Stack trace:
+[19-Feb-2018 23:39:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:0
+[19-Feb-2018 23:39:37 UTC] PHP   2. createPass() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:41
+[19-Feb-2018 23:39:37 UTC] PHP   3. array_push() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:24
+[19-Feb-2018 23:39:37 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php on line 24
+[19-Feb-2018 23:39:37 UTC] PHP Stack trace:
+[19-Feb-2018 23:39:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:0
+[19-Feb-2018 23:39:37 UTC] PHP   2. createPass() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:41
+[19-Feb-2018 23:39:37 UTC] PHP   3. array_push() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:24
+[19-Feb-2018 23:39:37 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php on line 24
+[19-Feb-2018 23:39:37 UTC] PHP Stack trace:
+[19-Feb-2018 23:39:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:0
+[19-Feb-2018 23:39:37 UTC] PHP   2. createPass() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:41
+[19-Feb-2018 23:39:37 UTC] PHP   3. array_push() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:24
+[19-Feb-2018 23:39:37 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php on line 24
+[19-Feb-2018 23:39:37 UTC] PHP Stack trace:
+[19-Feb-2018 23:39:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:0
+[19-Feb-2018 23:39:37 UTC] PHP   2. createPass() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:41
+[19-Feb-2018 23:39:37 UTC] PHP   3. array_push() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:24
+[19-Feb-2018 23:39:37 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php on line 24
+[19-Feb-2018 23:39:37 UTC] PHP Stack trace:
+[19-Feb-2018 23:39:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:0
+[19-Feb-2018 23:39:37 UTC] PHP   2. createPass() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:41
+[19-Feb-2018 23:39:37 UTC] PHP   3. array_push() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:24
+[19-Feb-2018 23:39:37 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php on line 20
+[19-Feb-2018 23:39:37 UTC] PHP Stack trace:
+[19-Feb-2018 23:39:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:0
+[19-Feb-2018 23:39:37 UTC] PHP   2. createPass() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:41
+[19-Feb-2018 23:39:37 UTC] PHP   3. array_push() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:20
+[19-Feb-2018 23:40:54 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php on line 20
+[19-Feb-2018 23:40:54 UTC] PHP Stack trace:
+[19-Feb-2018 23:40:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:0
+[19-Feb-2018 23:40:54 UTC] PHP   2. createPass() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:41
+[19-Feb-2018 23:40:54 UTC] PHP   3. array_push() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:20
+[19-Feb-2018 23:40:54 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php on line 20
+[19-Feb-2018 23:40:54 UTC] PHP Stack trace:
+[19-Feb-2018 23:40:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:0
+[19-Feb-2018 23:40:54 UTC] PHP   2. createPass() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:41
+[19-Feb-2018 23:40:54 UTC] PHP   3. array_push() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:20
+[19-Feb-2018 23:40:54 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php on line 20
+[19-Feb-2018 23:40:54 UTC] PHP Stack trace:
+[19-Feb-2018 23:40:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:0
+[19-Feb-2018 23:40:54 UTC] PHP   2. createPass() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:41
+[19-Feb-2018 23:40:54 UTC] PHP   3. array_push() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:20
+[19-Feb-2018 23:40:54 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php on line 20
+[19-Feb-2018 23:40:54 UTC] PHP Stack trace:
+[19-Feb-2018 23:40:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:0
+[19-Feb-2018 23:40:54 UTC] PHP   2. createPass() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:41
+[19-Feb-2018 23:40:54 UTC] PHP   3. array_push() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:20
+[19-Feb-2018 23:40:54 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php on line 20
+[19-Feb-2018 23:40:54 UTC] PHP Stack trace:
+[19-Feb-2018 23:40:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:0
+[19-Feb-2018 23:40:54 UTC] PHP   2. createPass() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:41
+[19-Feb-2018 23:40:54 UTC] PHP   3. array_push() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:20
+[19-Feb-2018 23:40:54 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php on line 20
+[19-Feb-2018 23:40:54 UTC] PHP Stack trace:
+[19-Feb-2018 23:40:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:0
+[19-Feb-2018 23:40:54 UTC] PHP   2. createPass() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:41
+[19-Feb-2018 23:40:54 UTC] PHP   3. array_push() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:20
+[19-Feb-2018 23:41:18 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php on line 24
+[19-Feb-2018 23:41:18 UTC] PHP Stack trace:
+[19-Feb-2018 23:41:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:0
+[19-Feb-2018 23:41:18 UTC] PHP   2. createPass() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:41
+[19-Feb-2018 23:41:18 UTC] PHP   3. array_push() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:24
+[19-Feb-2018 23:41:18 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php on line 24
+[19-Feb-2018 23:41:18 UTC] PHP Stack trace:
+[19-Feb-2018 23:41:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:0
+[19-Feb-2018 23:41:18 UTC] PHP   2. createPass() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:41
+[19-Feb-2018 23:41:18 UTC] PHP   3. array_push() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:24
+[19-Feb-2018 23:41:18 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php on line 20
+[19-Feb-2018 23:41:18 UTC] PHP Stack trace:
+[19-Feb-2018 23:41:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:0
+[19-Feb-2018 23:41:18 UTC] PHP   2. createPass() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:41
+[19-Feb-2018 23:41:18 UTC] PHP   3. array_push() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:20
+[19-Feb-2018 23:41:18 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php on line 20
+[19-Feb-2018 23:41:18 UTC] PHP Stack trace:
+[19-Feb-2018 23:41:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:0
+[19-Feb-2018 23:41:18 UTC] PHP   2. createPass() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:41
+[19-Feb-2018 23:41:18 UTC] PHP   3. array_push() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:20
+[19-Feb-2018 23:41:18 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php on line 24
+[19-Feb-2018 23:41:18 UTC] PHP Stack trace:
+[19-Feb-2018 23:41:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:0
+[19-Feb-2018 23:41:18 UTC] PHP   2. createPass() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:41
+[19-Feb-2018 23:41:18 UTC] PHP   3. array_push() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:24
+[19-Feb-2018 23:41:18 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php on line 20
+[19-Feb-2018 23:41:18 UTC] PHP Stack trace:
+[19-Feb-2018 23:41:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:0
+[19-Feb-2018 23:41:18 UTC] PHP   2. createPass() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:41
+[19-Feb-2018 23:41:18 UTC] PHP   3. array_push() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:20
+[19-Feb-2018 23:41:19 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php on line 20
+[19-Feb-2018 23:41:19 UTC] PHP Stack trace:
+[19-Feb-2018 23:41:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:0
+[19-Feb-2018 23:41:19 UTC] PHP   2. createPass() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:41
+[19-Feb-2018 23:41:19 UTC] PHP   3. array_push() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:20
+[19-Feb-2018 23:41:19 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php on line 20
+[19-Feb-2018 23:41:19 UTC] PHP Stack trace:
+[19-Feb-2018 23:41:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:0
+[19-Feb-2018 23:41:19 UTC] PHP   2. createPass() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:41
+[19-Feb-2018 23:41:19 UTC] PHP   3. array_push() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:20
+[19-Feb-2018 23:41:19 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php on line 24
+[19-Feb-2018 23:41:19 UTC] PHP Stack trace:
+[19-Feb-2018 23:41:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:0
+[19-Feb-2018 23:41:19 UTC] PHP   2. createPass() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:41
+[19-Feb-2018 23:41:19 UTC] PHP   3. array_push() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:24
+[19-Feb-2018 23:41:19 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php on line 24
+[19-Feb-2018 23:41:19 UTC] PHP Stack trace:
+[19-Feb-2018 23:41:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:0
+[19-Feb-2018 23:41:19 UTC] PHP   2. createPass() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:41
+[19-Feb-2018 23:41:19 UTC] PHP   3. array_push() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:24
+[19-Feb-2018 23:41:19 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php on line 20
+[19-Feb-2018 23:41:19 UTC] PHP Stack trace:
+[19-Feb-2018 23:41:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:0
+[19-Feb-2018 23:41:19 UTC] PHP   2. createPass() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:41
+[19-Feb-2018 23:41:19 UTC] PHP   3. array_push() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:20
+[19-Feb-2018 23:41:19 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php on line 24
+[19-Feb-2018 23:41:19 UTC] PHP Stack trace:
+[19-Feb-2018 23:41:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:0
+[19-Feb-2018 23:41:19 UTC] PHP   2. createPass() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:41
+[19-Feb-2018 23:41:19 UTC] PHP   3. array_push() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:24
+[19-Feb-2018 23:41:19 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php on line 24
+[19-Feb-2018 23:41:19 UTC] PHP Stack trace:
+[19-Feb-2018 23:41:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:0
+[19-Feb-2018 23:41:19 UTC] PHP   2. createPass() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:41
+[19-Feb-2018 23:41:19 UTC] PHP   3. array_push() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:24
+[19-Feb-2018 23:41:19 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php on line 20
+[19-Feb-2018 23:41:19 UTC] PHP Stack trace:
+[19-Feb-2018 23:41:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:0
+[19-Feb-2018 23:41:19 UTC] PHP   2. createPass() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:41
+[19-Feb-2018 23:41:19 UTC] PHP   3. array_push() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:20
+[19-Feb-2018 23:41:19 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php on line 20
+[19-Feb-2018 23:41:19 UTC] PHP Stack trace:
+[19-Feb-2018 23:41:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:0
+[19-Feb-2018 23:41:19 UTC] PHP   2. createPass() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:41
+[19-Feb-2018 23:41:19 UTC] PHP   3. array_push() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:20
+[19-Feb-2018 23:41:19 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php on line 24
+[19-Feb-2018 23:41:19 UTC] PHP Stack trace:
+[19-Feb-2018 23:41:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:0
+[19-Feb-2018 23:41:19 UTC] PHP   2. createPass() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:41
+[19-Feb-2018 23:41:19 UTC] PHP   3. array_push() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:24
+[19-Feb-2018 23:41:19 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php on line 20
+[19-Feb-2018 23:41:19 UTC] PHP Stack trace:
+[19-Feb-2018 23:41:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:0
+[19-Feb-2018 23:41:19 UTC] PHP   2. createPass() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:41
+[19-Feb-2018 23:41:19 UTC] PHP   3. array_push() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:20
+[19-Feb-2018 23:41:19 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php on line 24
+[19-Feb-2018 23:41:19 UTC] PHP Stack trace:
+[19-Feb-2018 23:41:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:0
+[19-Feb-2018 23:41:19 UTC] PHP   2. createPass() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:41
+[19-Feb-2018 23:41:19 UTC] PHP   3. array_push() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:24
+[19-Feb-2018 23:41:27 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php on line 20
+[19-Feb-2018 23:41:27 UTC] PHP Stack trace:
+[19-Feb-2018 23:41:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:0
+[19-Feb-2018 23:41:27 UTC] PHP   2. createPass() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:41
+[19-Feb-2018 23:41:27 UTC] PHP   3. array_push() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:20
+[19-Feb-2018 23:41:27 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php on line 20
+[19-Feb-2018 23:41:27 UTC] PHP Stack trace:
+[19-Feb-2018 23:41:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:0
+[19-Feb-2018 23:41:27 UTC] PHP   2. createPass() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:41
+[19-Feb-2018 23:41:27 UTC] PHP   3. array_push() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:20
+[19-Feb-2018 23:41:27 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php on line 24
+[19-Feb-2018 23:41:27 UTC] PHP Stack trace:
+[19-Feb-2018 23:41:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:0
+[19-Feb-2018 23:41:27 UTC] PHP   2. createPass() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:41
+[19-Feb-2018 23:41:27 UTC] PHP   3. array_push() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:24
+[19-Feb-2018 23:41:27 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php on line 20
+[19-Feb-2018 23:41:27 UTC] PHP Stack trace:
+[19-Feb-2018 23:41:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:0
+[19-Feb-2018 23:41:27 UTC] PHP   2. createPass() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:41
+[19-Feb-2018 23:41:27 UTC] PHP   3. array_push() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:20
+[19-Feb-2018 23:41:27 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php on line 20
+[19-Feb-2018 23:41:27 UTC] PHP Stack trace:
+[19-Feb-2018 23:41:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:0
+[19-Feb-2018 23:41:27 UTC] PHP   2. createPass() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:41
+[19-Feb-2018 23:41:27 UTC] PHP   3. array_push() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:20
+[19-Feb-2018 23:41:27 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php on line 24
+[19-Feb-2018 23:41:27 UTC] PHP Stack trace:
+[19-Feb-2018 23:41:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:0
+[19-Feb-2018 23:41:27 UTC] PHP   2. createPass() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:41
+[19-Feb-2018 23:41:27 UTC] PHP   3. array_push() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:24
+[19-Feb-2018 23:41:27 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php on line 20
+[19-Feb-2018 23:41:27 UTC] PHP Stack trace:
+[19-Feb-2018 23:41:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:0
+[19-Feb-2018 23:41:27 UTC] PHP   2. createPass() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:41
+[19-Feb-2018 23:41:27 UTC] PHP   3. array_push() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:20
+[19-Feb-2018 23:41:27 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php on line 20
+[19-Feb-2018 23:41:27 UTC] PHP Stack trace:
+[19-Feb-2018 23:41:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:0
+[19-Feb-2018 23:41:27 UTC] PHP   2. createPass() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:41
+[19-Feb-2018 23:41:27 UTC] PHP   3. array_push() /home/ubuntu/workspace/elmanzo/Challenge/Challenge3/challenge.php:20
