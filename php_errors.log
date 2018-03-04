@@ -254,3 +254,37 @@
 [20-Feb-2018 08:25:01 UTC] PHP Stack trace:
 [20-Feb-2018 08:25:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/hw2/index.php:0
 [20-Feb-2018 08:25:01 UTC] PHP   2. play() /home/ubuntu/workspace/elmanzo/hw2/index.php:21
+[28-Feb-2018 19:09:48 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/ubuntu/workspace/elmanzo/lab3/inc/functions.php on line 76
+[28-Feb-2018 19:09:48 UTC] PHP Stack trace:
+[28-Feb-2018 19:09:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/lab3/index.php:0
+[28-Feb-2018 19:12:11 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/elmanzo/lab3/inc/functions.php on line 70
+[28-Feb-2018 19:12:11 UTC] PHP Stack trace:
+[28-Feb-2018 19:12:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/lab3/index.php:0
+[28-Feb-2018 19:12:11 UTC] PHP   2. playCards() /home/ubuntu/workspace/elmanzo/lab3/index.php:10
+[28-Feb-2018 19:14:39 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/elmanzo/lab3/inc/functions.php on line 70
+[28-Feb-2018 19:14:39 UTC] PHP Stack trace:
+[28-Feb-2018 19:14:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/lab3/index.php:0
+[28-Feb-2018 19:14:39 UTC] PHP   2. playCards() /home/ubuntu/workspace/elmanzo/lab3/index.php:10
+[28-Feb-2018 19:14:40 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/elmanzo/lab3/inc/functions.php on line 70
+[28-Feb-2018 19:14:40 UTC] PHP Stack trace:
+[28-Feb-2018 19:14:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/lab3/index.php:0
+[28-Feb-2018 19:14:40 UTC] PHP   2. playCards() /home/ubuntu/workspace/elmanzo/lab3/index.php:10
+[28-Feb-2018 19:24:31 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/ubuntu/workspace/elmanzo/lab3/inc/functions.php on line 70
+[28-Feb-2018 19:24:31 UTC] PHP Stack trace:
+[28-Feb-2018 19:24:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/lab3/index.php:0
+[28-Feb-2018 19:24:42 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/elmanzo/lab3/inc/functions.php on line 70
+[28-Feb-2018 19:24:42 UTC] PHP Stack trace:
+[28-Feb-2018 19:24:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/lab3/index.php:0
+[28-Feb-2018 19:24:43 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/elmanzo/lab3/inc/functions.php on line 70
+[28-Feb-2018 19:24:43 UTC] PHP Stack trace:
+[28-Feb-2018 19:24:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/lab3/index.php:0
+[28-Feb-2018 19:44:12 UTC] PHP Parse error:  syntax error, unexpected '[', expecting ']' in /home/ubuntu/workspace/elmanzo/lab3/inc/functions.php on line 43
+[28-Feb-2018 19:44:12 UTC] PHP Stack trace:
+[28-Feb-2018 19:44:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/lab3/index.php:0
+[28-Feb-2018 20:47:22 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/elmanzo/lab3/inc/functions.php on line 90
+[28-Feb-2018 20:47:22 UTC] PHP Stack trace:
+[28-Feb-2018 20:47:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/lab3/index.php:0
+[04-Mar-2018 05:32:34 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/ubuntu/workspace/elmanzo/lab4/index.php on line 89
+[04-Mar-2018 05:39:15 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/ubuntu/workspace/elmanzo/lab4/index.php on line 89
+[04-Mar-2018 05:48:21 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/elmanzo/lab4/index.php on line 136
+[04-Mar-2018 05:50:31 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/elmanzo/lab4/index.php on line 134
