@@ -70,8 +70,10 @@
             <label for="Question5">5) What animal is in the picture?</label>
             <span class="error">* <?php echo $q5Message;?></span>
             <br /><br />
-            <img id="elephant" src="img/elephant.jpg" alt="elephant"/>
-            <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+            <div id = 'elephantFormat' >
+                <img id="elephant" src="img/elephant.jpg" alt="elephant"/>
+            </div>
+            <br /><br />
             <input id="perro" type="radio" name="q5Answers" value="perro" <?= ($_GET['q5Answers']=="perro")?"checked":"" ?>>
             <label for="perro">El perro</label><br>
             <input id="gato" type="radio" name="q5Answers" value="gato" <?= ($_GET['q5Answers']=="gato")?"checked":"" ?>>
@@ -81,8 +83,10 @@
             <input id="elefante" type="radio" name="q5Answers" value="elefante" <?= ($_GET['q5Answers']=="elefante")?"checked":"" ?>>
             <label for="elefante">El elefante</label><br>
             <br /><br />
-            <input type="submit" name="submit" value="Submit">
-            <br /><br />
+            <div id = "buttonFormat">
+                <input type="submit" name="submit" value="Submit">
+            </div>
+            <br />
             <hr>
         </form>
         <?php display()?>
