@@ -2145,3 +2145,35 @@
 [14-Mar-2018 20:40:49 UTC] PHP Stack trace:
 [14-Mar-2018 20:40:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/hw/hw3/index.php:0
 [14-Mar-2018 20:40:49 UTC] PHP   2. in_array() /home/ubuntu/workspace/elmanzo/hw/hw3/index.php:39
+[14-Mar-2018 20:49:08 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/elmanzo/hw/hw3/index.php on line 33
+[14-Mar-2018 20:49:08 UTC] PHP Stack trace:
+[14-Mar-2018 20:49:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/hw/hw3/index.php:0
+[14-Mar-2018 20:49:08 UTC] PHP   2. in_array() /home/ubuntu/workspace/elmanzo/hw/hw3/index.php:33
+[14-Mar-2018 20:49:08 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/elmanzo/hw/hw3/index.php on line 35
+[14-Mar-2018 20:49:08 UTC] PHP Stack trace:
+[14-Mar-2018 20:49:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/hw/hw3/index.php:0
+[14-Mar-2018 20:49:08 UTC] PHP   2. in_array() /home/ubuntu/workspace/elmanzo/hw/hw3/index.php:35
+[14-Mar-2018 20:49:08 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/elmanzo/hw/hw3/index.php on line 37
+[14-Mar-2018 20:49:08 UTC] PHP Stack trace:
+[14-Mar-2018 20:49:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/hw/hw3/index.php:0
+[14-Mar-2018 20:49:08 UTC] PHP   2. in_array() /home/ubuntu/workspace/elmanzo/hw/hw3/index.php:37
+[14-Mar-2018 20:49:08 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/elmanzo/hw/hw3/index.php on line 39
+[14-Mar-2018 20:49:08 UTC] PHP Stack trace:
+[14-Mar-2018 20:49:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/hw/hw3/index.php:0
+[14-Mar-2018 20:49:08 UTC] PHP   2. in_array() /home/ubuntu/workspace/elmanzo/hw/hw3/index.php:39
+[14-Mar-2018 20:50:57 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/elmanzo/hw/hw3/index.php on line 33
+[14-Mar-2018 20:50:57 UTC] PHP Stack trace:
+[14-Mar-2018 20:50:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/hw/hw3/index.php:0
+[14-Mar-2018 20:50:57 UTC] PHP   2. in_array() /home/ubuntu/workspace/elmanzo/hw/hw3/index.php:33
+[14-Mar-2018 20:50:57 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/elmanzo/hw/hw3/index.php on line 35
+[14-Mar-2018 20:50:57 UTC] PHP Stack trace:
+[14-Mar-2018 20:50:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/hw/hw3/index.php:0
+[14-Mar-2018 20:50:57 UTC] PHP   2. in_array() /home/ubuntu/workspace/elmanzo/hw/hw3/index.php:35
+[14-Mar-2018 20:50:57 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/elmanzo/hw/hw3/index.php on line 37
+[14-Mar-2018 20:50:57 UTC] PHP Stack trace:
+[14-Mar-2018 20:50:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/hw/hw3/index.php:0
+[14-Mar-2018 20:50:57 UTC] PHP   2. in_array() /home/ubuntu/workspace/elmanzo/hw/hw3/index.php:37
+[14-Mar-2018 20:50:57 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/elmanzo/hw/hw3/index.php on line 39
+[14-Mar-2018 20:50:57 UTC] PHP Stack trace:
+[14-Mar-2018 20:50:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/hw/hw3/index.php:0
+[14-Mar-2018 20:50:57 UTC] PHP   2. in_array() /home/ubuntu/workspace/elmanzo/hw/hw3/index.php:39
