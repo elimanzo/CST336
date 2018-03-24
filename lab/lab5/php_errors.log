@@ -1,0 +1,36 @@
+[24-Mar-2018 03:48:10 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/elmanzo/lab/lab5/scart/scart.php on line 46
+[24-Mar-2018 03:48:10 UTC] PHP Stack trace:
+[24-Mar-2018 03:48:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/lab/lab5/scart/scart.php:0
+[24-Mar-2018 03:48:12 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/elmanzo/lab/lab5/scart/scart.php on line 46
+[24-Mar-2018 03:48:12 UTC] PHP Stack trace:
+[24-Mar-2018 03:48:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/lab/lab5/scart/scart.php:0
+[24-Mar-2018 04:04:11 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/elmanzo/lab/lab5/scart/scart.php on line 46
+[24-Mar-2018 04:04:11 UTC] PHP Stack trace:
+[24-Mar-2018 04:04:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/lab/lab5/scart/scart.php:0
+[24-Mar-2018 04:04:16 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/elmanzo/lab/lab5/scart/scart.php on line 46
+[24-Mar-2018 04:04:16 UTC] PHP Stack trace:
+[24-Mar-2018 04:04:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/lab/lab5/scart/scart.php:0
+[24-Mar-2018 04:05:37 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/elmanzo/lab/lab5/scart/scart.php on line 46
+[24-Mar-2018 04:05:37 UTC] PHP Stack trace:
+[24-Mar-2018 04:05:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/lab/lab5/scart/scart.php:0
+[24-Mar-2018 04:05:38 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/elmanzo/lab/lab5/scart/scart.php on line 46
+[24-Mar-2018 04:05:38 UTC] PHP Stack trace:
+[24-Mar-2018 04:05:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/lab/lab5/scart/scart.php:0
+[24-Mar-2018 04:05:39 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/elmanzo/lab/lab5/scart/scart.php on line 46
+[24-Mar-2018 04:05:39 UTC] PHP Stack trace:
+[24-Mar-2018 04:05:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/lab/lab5/scart/scart.php:0
+[24-Mar-2018 04:13:07 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/elmanzo/lab/lab5/scart/scart.php on line 59
+[24-Mar-2018 04:13:07 UTC] PHP Stack trace:
+[24-Mar-2018 04:13:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/lab/lab5/scart/scart.php:0
+[24-Mar-2018 04:13:12 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/elmanzo/lab/lab5/scart/scart.php on line 59
+[24-Mar-2018 04:13:12 UTC] PHP Stack trace:
+[24-Mar-2018 04:13:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/lab/lab5/scart/scart.php:0
+[24-Mar-2018 04:20:43 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/elmanzo/lab/lab5/scart/scart.php on line 46
+[24-Mar-2018 04:20:43 UTC] PHP Stack trace:
+[24-Mar-2018 04:20:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/lab/lab5/scart/scart.php:0
+[24-Mar-2018 04:22:57 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/elmanzo/lab/lab5/scart/scart.php on line 46
+[24-Mar-2018 04:22:57 UTC] PHP Stack trace:
+[24-Mar-2018 04:22:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/lab/lab5/scart/scart.php:0
+[24-Mar-2018 04:26:20 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/elmanzo/lab/lab5/scart/scart.php on line 46
+[24-Mar-2018 04:26:20 UTC] PHP Stack trace:
+[24-Mar-2018 04:26:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/lab/lab5/scart/scart.php:0
