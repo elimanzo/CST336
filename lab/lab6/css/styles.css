@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Rammetto+One');
+
+
+img {
+    border-radius: 30px;
+}
+#name {
+    font-family: 'Rammetto One', cursive;
+    color: white;
+}
+
+option {
+    font-family: 'Rammetto One', cursive;
+    background: #c5d8f7; 
+}
+
+input[type=submit] {
+    left:930px;
+    position: absolute;
+    font-family: 'Rammetto One', cursive;
+    background: #c5d8f7;
+    border: solid;
+}
+input[type=radio] {
+    margin: 0 auto;
+    color: #c5d8f7;
+}
+body {
+    font-family: 'Rammetto One', cursive;
+    text-align: center;
+    border: dotted;
+    border-radius: 4px;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    width: 38%;
+    border-style: solid;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, .9);
+    padding-bottom: 2px;
+    
+}
