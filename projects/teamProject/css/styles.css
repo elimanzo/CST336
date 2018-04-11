@@ -1,0 +1,38 @@
+img {
+    width:100px; /* you can use % */
+    height: auto;
+}
+
+.form-control {
+    margin: 0 auto;
+    width:300px;
+}
+.custom-select {
+    margin: 0 auto;
+    width:300px; 
+}
+
+.input-group {
+    margin: 0 auto;
+    width:300px;
+}
+
+b{
+    color: #450087;
+}
+
+#bookImage {
+        float: left;
+        width: 15%;
+        text-align: center;
+} 
+#bookInfo {
+        float: left;
+        width: 40%;
+        text-align: left;
+} 
+#content{
+        width: 1000px;
+        margin: 0 auto;
+        text-align: left;
+}

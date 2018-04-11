@@ -1,15 +1,20 @@
 <?php
 
 session_start();
+include '../../dbConnection.php';
+$conn = getDatabaseConnection("ottermart");
 
-function displayAllProducts() {
+function displayAllProducts(){
     global $conn;
+    $sql="SELECT * FROM om_product";
+    $statement = $conn->prepare($sql);
+    $statement->execute();
+    $records = $statement->fetchAll(PDO::FETCH_ASSOC);
     
-    $sql = "SELECT productName, produxtDescription, price FROM `om_"
-    
+    //print_r($records);
+
+    return $records;
 }
-
-
 ?>
 
 <!DOCTYPE html>
@@ -27,7 +32,17 @@ function displayAllProducts() {
         
         <br />
         
-        <?=displayAllProducts()?>
+        <strong> Products: </strong> <br />
+        
+        <?php $records=displayAllProducts();
+            foreach($records as $record) {
+                echo $record['productName'];
+                echo '<br>';
+            }
+        
+        ?>
+        
+        
 
     </body>
 </html>
