@@ -84,10 +84,14 @@
             
              if (isset($_GET['orderBy'])) {
                  
-                 if ($_GET['orderBy'] == "price") {
+                 if ($_GET['orderBy'] == "priceA") {
                      
                     $sql .= " ORDER BY price";
+                  
+                 } else if ($_GET['orderBy'] == "priceD"){
                      
+                    $sql .= " ORDER BY price DESC"; 
+                    
                  } else if ($_GET['orderBy'] == "year"){
                      
                     $sql .= " ORDER BY publishYear";
@@ -187,18 +191,23 @@
                 </div>
                 <label for="bName"><strong>Order result by: </strong></label><br />
                 <div class="custom-control custom-radio custom-control-inline">
-                    <input type="radio" id="customRadioInline1" name="orderBy"  value="price" class="custom-control-input">
-                    <label class="custom-control-label" for="customRadioInline1">Price</label>
+                    <input type="radio" id="customRadioInline1" name="orderBy"  value="priceA" class="custom-control-input">
+                    <label class="custom-control-label" for="customRadioInline1">Price (ASC)</label>
                 </div>
                 <br />
                 <div class="custom-control custom-radio custom-control-inline">
-                    <input type="radio" id="customRadioInline2" name="orderBy" value="name"class="custom-control-input">
-                    <label class="custom-control-label" for="customRadioInline2">Name</label>
+                    <input type="radio" id="customRadioInline2" name="orderBy" value="priceD"class="custom-control-input">
+                    <label class="custom-control-label" for="customRadioInline2">Price (DESC)</label>
                 </div>
                 <br />
                 <div class="custom-control custom-radio custom-control-inline">
-                    <input type="radio" id="customRadioInline3" name="orderBy" value="year"class="custom-control-input">
-                    <label class="custom-control-label" for="customRadioInline3">Publish Year</label>
+                    <input type="radio" id="customRadioInline3" name="orderBy" value="name"class="custom-control-input">
+                    <label class="custom-control-label" for="customRadioInline3">Name</label>
+                </div>
+                <br />
+                <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="customRadioInline4" name="orderBy" value="year"class="custom-control-input">
+                    <label class="custom-control-label" for="customRadioInline4">Publish Year</label>
                 </div>
                 <br /><br />
                 <input type="submit" name = "searchForm" value="Submit" class="btn btn-default">
