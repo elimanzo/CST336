@@ -38,15 +38,13 @@
     //print_r($record);
 
     if (empty($record)) {
-        
-        echo "Wrong username or password!";
-        
+        $_SESSION['incorrect'] = true;
+        header("Location:index.php");
     } else {
-        
-        
-            //echo $record['firstName'] . " " . $record['lastName'];
-            $_SESSION['adminName'] = $record['firstName'] . " " . $record['lastName'];
-            header("Location:admin.php");
+        //echo $record['firstName'] . " " . $record['lastName'];
+        $_SESSION['incorrect'] = false;
+        $_SESSION['adminName'] = $record['firstName'] . " " . $record['lastName'];
+        header("Location:admin.php");
         
     }
 
