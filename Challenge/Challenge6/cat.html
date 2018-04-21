@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Cat </title>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+       <script>
+            $(document).ready( function(){
+                var image = "img/now_you_see_me.png";
+                var newImg = "img/now_you_dont.png";
+                $("button").click( function(){
+                    if (document.form.button.value == 'a') {
+                        document.getElementById("1").src = "img/now_you_dont.png";
+                        $("#see").html("<h1>Now you don't!</h1>");
+                        $("button").text("Re-appear");
+                    } else {
+                        document.getElementById("1").src = "img/now_you_see_me.png";
+                        $("#see").html("<h1>Now you see me!</h1>");
+                        $("button").text("Do Magic!!");
+                        document.form.button.value = 'b';
+                    }
+                });
+                
+            });
+        </script>        
+    </head>
+    <body>
+
+        <div id = "cat">
+            <img id = "1" src = "img/now_you_see_me.png">
+        </div>
+        <div id = "see">
+            <h1>Now you see me!</h1>
+        </div>
+    
+        <button value = 'a'>Do Magic!!</button>
+    
+    </body>
+  
+</html>
