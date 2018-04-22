@@ -12,11 +12,14 @@ var words = [{word:"snake", hint:"It's a reptile"},
 var alphabet = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 
                 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 
                 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
-                
-if(localStorage.getItem('wordHistory') == null)
+
+// https://developer.mozilla.org/en-US/docs/Web/API/Window/sessionStorage
+// Works like Sessions in php
+if(sessionStorage.getItem('wordHistory') == null)
     var wordHistory =[];
 else
-    var wordHistory =  JSON.parse(localStorage.getItem('wordHistory'));
+    var wordHistory =  JSON.parse(sessionStorage.getItem('wordHistory'));
+    
 window.onload = startGame();
 function startGame(){
     pickWord();
@@ -98,7 +101,7 @@ function displayHistory(){
 }
 function addWord(){
 	wordHistory.push(selectedWord);
-	localStorage.setItem('wordHistory', JSON.stringify(wordHistory));
+	sessionStorage.setItem('wordHistory', JSON.stringify(wordHistory));
 }
 $("#hint").click(function(){
     $("#hint").hide();
