@@ -1,0 +1,20 @@
+body {
+	background-image: url("../img/bg.jpg");
+	text-align: center;
+}
+#title {
+	color: white;
+	font: bold;
+}
+
+#gameScreen{
+	position: relative;
+	background-color: silver;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.gameObject{
+	text-align: center;
+	position: absolute;
+	z-index: 1;
+}
