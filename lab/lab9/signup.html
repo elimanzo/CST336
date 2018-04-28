@@ -2,93 +2,174 @@
 <html>
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>AJAX: Sign Up Page</title>
-
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
         <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+        <link href="css/styles.css" rel="stylesheet" type="text/css" />
         <script>
         
             function validateForm() {
-                
+                if($("#password2").val() != $("#password1").val()) {
+                    $("#passMatch").show();
+                } else {
+                    $("#passMatch").hide();
+                }
                 return false;
-           
             }
             
         </script>
         
         <script>
-            
-            
             $(document).ready( function(){
-                
-                //EVENTS
-                $("#zipCode").change( function(){  
-                    //alert( $("#zipCode").val() );
+                $("#username").change( function(){ 
+                    $.ajax({
+
+                        type: "GET",
+                        url: "checkUsernameAPI.php",
+                        dataType: "json",
+                        data: { "username": $("#username").val() },
+                        success: function(data,status) {
+                             
+                             if (!data) { 
+                                $("#taken").hide();
+                                $("#success").show();
+                             } else {
+                                $("#taken").show(); 
+                                $("#success").hide();
+                             }
+                             if($("#username").val() == "") {
+                                $("#success").hide();
+                                $("#taken").hide();
+                             }
+                        },
+                        complete: function(data,status) { 
+                    }
+
+});//ajax
                     
+                });
+                
+                $("#state").change( function () {
+                    $.ajax({
+
+                        type: "GET",
+                        url: "http://itcdland.csumb.edu/~milara/ajax/countyList.php",
+                        dataType: "json",
+                        data: { "state": $("#state").val()},
+                        success: function(data,status) {
+                        //alert(data[0]['county']);
+                        //alert(data[0].county);
+                        $("#county").html("<option>Select One</option>");
+                        for(var i=0; i<data.length; i++)
+                        {
+                           $("#county").append("<option>" + data[i].county + "</option>"); 
+                        }
+                        
+                        },
+                        complete: function(data,status) { //optional, used for debugging purposes
+                        //alert(status);
+                        }
+                    });//ajax
+                });
+                
+                $("#zipCode").change( function(){ 
                     $.ajax({
                         type: "GET",
                         url: "http://itcdland.csumb.edu/~milara/ajax/cityInfoByZip.php",
                         dataType: "json",
                         data: { "zip": $("#zipCode").val() },
                         success: function(data,status) {
-                        
-                           //alert(data.city);
-                           $("#city").html(data.city);
-                        
+                            if(data) {
+                                $("#city").html(data.city);
+                                $("#lat").html(data.latitude);
+                                $("#long").html(data.longitude);   
+                                $("#zipError").hide();
+                            } else {
+                                $("#city").html("");
+                                $("#lat").html("");
+                                $("#long").html("");
+                                $("#zipError").show();
+                            }
+                            if($("#zipCode").val() == "") {
+                                $("#zipError").hide();
+                            }
                         },
                         complete: function(data,status) { //optional, used for debugging purposes
                         //alert(status);
                         }
-                        
                     });//ajax
-                    
                 } ); //#zipCode Event 
-
-                
+                $("#state").change(function(){
+                    $.ajax({
+                        type: "GET",
+                        url: "http://itcdland.csumb.edu/~milara/ajax/countyList.php",
+                        dataType: "json",
+                        data: { "state": $("#state").val()},
+                        success: function(data,status) {
+                            $("#county").html('<option>Select One</option>');
+                            for(var i=0; i<Object.keys(data).length; i++)
+                                $("#county").append('<option value='+i+'>'+data[i].county+'</option>');
+                        }
+                    });
+                });
             } ); //documentReady
-            
-            
         </script>
-
     </head>
-
     <body>
-    
-       <h1> Sign Up Form </h1>
-    
-        <form onsubmit="return validateForm()">
-            <fieldset>
-               <legend>Sign Up</legend>
-                First Name:  <input type="text"><br> 
-                Last Name:   <input type="text"><br> 
-                Email:       <input type="text"><br> 
-                Phone Number:<input type="text"><br><br>
-                Zip Code:    <input type="text" id="zipCode"><br>
-                City:        <span id="city"></span>
-                <br>
-                Latitude: <span id="lat"></span>
-                <br>
-                Longitude: <span id="long"></span>
-                <br><br>
-                State: 
-                <select>
-                    <option value="">Select One</option>
-                    <option value="ca"> California</option>
-                    <option value="ny"> New York</option>
-                    <option value="tx"> Texas</option>
-                    <option value="va"> Virginia</option>
-                </select><br />
-                
-                Select a County: <select></select><br>
-                
-                Desired Username: <input type="text"><br>
-                
-                Password: <input type="password"><br>
-                
-                Type Password Again: <input type="password"><br>
-                
-                <input type="submit" value="Sign up!">
-            </fieldset>
-        </form>
-    
+       <h1 class = 'display-4'><strong> Sign Up Form </strong></h1>
+        <div class = "container">
+            <div class = "row">
+                <div class = "col-md-6 offset-md-3">        
+                    <form onsubmit="return validateForm()">
+                        <fieldset>
+                            <legend class = 'display-4' id = 'welcome'>Sign Up</legend>
+                            <strong>First Name:</strong> <input type="text" class="form-control" placeholder="First Name"><br> 
+                            <strong>Last Name:</strong>   <input type="text" class="form-control" placeholder="Last Name"><br> 
+                            <strong>Email: </strong>      <input type="text" class="form-control" placeholder="Email"><br> 
+                            <strong>Phone Number:</strong><input type="text" class="form-control" placeholder="1-###-####"><br>
+                            <strong>Zip Code:</strong>    
+                            <span class = 'error' id="zipError" style='color:red;'><strong>Zip code not found!</strong></span>
+                            <input type="text" id="zipCode" class="form-control" placeholder="#####"><br>
+                            <script>$("#zipError").hide();</script>
+                            <strong>City:</strong>        <span id="city"></span>
+                            <br>
+                            <strong>Latitude:</strong> <span id="lat"></span>
+                            <br>
+                            <strong>Longitude:</strong><span id="long"></span>
+                            <br><br>
+                            <strong>State:</strong>     
+                            <select id="state" class="form-control">
+                                <option value="">Select One</option>
+                                <option value="ca"> California</option>
+                                <option value="ny"> New York</option>
+                                <option value="tx"> Texas</option>
+                                <option value="va"> Virginia</option>
+                            </select><br />
+                            
+                            <strong>Select a County:</strong> <select id="county" class = "form-control"></select><br>
+                            
+                            <strong>Desired Username:</strong> 
+                            <span id ='taken' style='color:red;'><strong>Username is already taken<br></strong></span>
+                            <span id ='success' style='color:green;'><strong>Username is available!<br></strong></span>
+                            <input id="username" class = "form-control" type="text" placeholder="Username"><br>
+                            <script>$("#taken").hide();</script>
+                            <script>$("#success").hide();</script>
+                            <strong>Password:</strong> <input type="password" id = 'password1' class="form-control" placeholder="Password"><br>
+                            
+                            <strong>Retype Password:</strong> 
+                            <span id ='passMatch' style='color:red;'><strong>Passwords do not match!<br></strong></span>
+                            <script>$("#passMatch").hide();</script>
+                            <input type="password" id = 'password2'class="form-control" placeholder="Password"><br>
+                            <input type="submit" class = 'btn btn-primary'value="Sign up!">
+                        </fieldset>
+                    </form>
+                 </div>
+            </div>
+        </div>
     </body>
 </html>
