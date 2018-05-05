@@ -1,0 +1,8 @@
+    body {
+        text-align: center;
+    }
+    .carousel img, #carouselExampleIndicators {
+        margin: auto;
+        width: 600px;
+        height: 400px;
+    }
