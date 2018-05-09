@@ -4,6 +4,7 @@
     
     $dir = 'img/';
     $imageFiles = glob($dir.'*.jpg');
+    
 ?>       
 <script>
     $(document).ready(function(){

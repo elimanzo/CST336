@@ -1,0 +1,172 @@
+[09-May-2018 08:03:18 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php on line 2
+[09-May-2018 08:03:18 UTC] PHP Stack trace:
+[09-May-2018 08:03:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php:0
+[09-May-2018 08:03:18 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php on line 2
+[09-May-2018 08:03:18 UTC] PHP Stack trace:
+[09-May-2018 08:03:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php:0
+[09-May-2018 08:03:18 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php on line 3
+[09-May-2018 08:03:18 UTC] PHP Stack trace:
+[09-May-2018 08:03:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php:0
+[09-May-2018 08:03:19 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php on line 2
+[09-May-2018 08:03:19 UTC] PHP Stack trace:
+[09-May-2018 08:03:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php:0
+[09-May-2018 08:03:19 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php on line 2
+[09-May-2018 08:03:19 UTC] PHP Stack trace:
+[09-May-2018 08:03:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php:0
+[09-May-2018 08:03:19 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php on line 3
+[09-May-2018 08:03:19 UTC] PHP Stack trace:
+[09-May-2018 08:03:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php:0
+[09-May-2018 08:03:20 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php on line 2
+[09-May-2018 08:03:20 UTC] PHP Stack trace:
+[09-May-2018 08:03:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php:0
+[09-May-2018 08:03:20 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php on line 2
+[09-May-2018 08:03:20 UTC] PHP Stack trace:
+[09-May-2018 08:03:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php:0
+[09-May-2018 08:03:20 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php on line 3
+[09-May-2018 08:03:20 UTC] PHP Stack trace:
+[09-May-2018 08:03:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php:0
+[09-May-2018 08:03:20 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php on line 2
+[09-May-2018 08:03:20 UTC] PHP Stack trace:
+[09-May-2018 08:03:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php:0
+[09-May-2018 08:03:20 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php on line 2
+[09-May-2018 08:03:20 UTC] PHP Stack trace:
+[09-May-2018 08:03:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php:0
+[09-May-2018 08:03:20 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php on line 3
+[09-May-2018 08:03:20 UTC] PHP Stack trace:
+[09-May-2018 08:03:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php:0
+[09-May-2018 08:03:20 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php on line 2
+[09-May-2018 08:03:20 UTC] PHP Stack trace:
+[09-May-2018 08:03:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php:0
+[09-May-2018 08:03:20 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php on line 2
+[09-May-2018 08:03:20 UTC] PHP Stack trace:
+[09-May-2018 08:03:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php:0
+[09-May-2018 08:03:20 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php on line 3
+[09-May-2018 08:03:20 UTC] PHP Stack trace:
+[09-May-2018 08:03:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php:0
+[09-May-2018 08:03:24 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php on line 2
+[09-May-2018 08:03:24 UTC] PHP Stack trace:
+[09-May-2018 08:03:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php:0
+[09-May-2018 08:03:24 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php on line 2
+[09-May-2018 08:03:24 UTC] PHP Stack trace:
+[09-May-2018 08:03:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php:0
+[09-May-2018 08:03:24 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php on line 3
+[09-May-2018 08:03:24 UTC] PHP Stack trace:
+[09-May-2018 08:03:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php:0
+[09-May-2018 08:03:28 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php on line 2
+[09-May-2018 08:03:28 UTC] PHP Stack trace:
+[09-May-2018 08:03:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php:0
+[09-May-2018 08:03:28 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php on line 2
+[09-May-2018 08:03:28 UTC] PHP Stack trace:
+[09-May-2018 08:03:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php:0
+[09-May-2018 08:03:28 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php on line 3
+[09-May-2018 08:03:28 UTC] PHP Stack trace:
+[09-May-2018 08:03:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php:0
+[09-May-2018 08:03:35 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php on line 2
+[09-May-2018 08:03:35 UTC] PHP Stack trace:
+[09-May-2018 08:03:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php:0
+[09-May-2018 08:03:35 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php on line 2
+[09-May-2018 08:03:35 UTC] PHP Stack trace:
+[09-May-2018 08:03:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php:0
+[09-May-2018 08:03:35 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php on line 3
+[09-May-2018 08:03:35 UTC] PHP Stack trace:
+[09-May-2018 08:03:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php:0
+[09-May-2018 08:03:35 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php on line 2
+[09-May-2018 08:03:35 UTC] PHP Stack trace:
+[09-May-2018 08:03:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php:0
+[09-May-2018 08:03:35 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php on line 2
+[09-May-2018 08:03:35 UTC] PHP Stack trace:
+[09-May-2018 08:03:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php:0
+[09-May-2018 08:03:35 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php on line 3
+[09-May-2018 08:03:35 UTC] PHP Stack trace:
+[09-May-2018 08:03:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php:0
+[09-May-2018 08:03:36 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php on line 2
+[09-May-2018 08:03:36 UTC] PHP Stack trace:
+[09-May-2018 08:03:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php:0
+[09-May-2018 08:03:36 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php on line 2
+[09-May-2018 08:03:36 UTC] PHP Stack trace:
+[09-May-2018 08:03:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php:0
+[09-May-2018 08:03:36 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php on line 3
+[09-May-2018 08:03:36 UTC] PHP Stack trace:
+[09-May-2018 08:03:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php:0
+[09-May-2018 08:03:36 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php on line 2
+[09-May-2018 08:03:36 UTC] PHP Stack trace:
+[09-May-2018 08:03:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php:0
+[09-May-2018 08:03:36 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php on line 2
+[09-May-2018 08:03:36 UTC] PHP Stack trace:
+[09-May-2018 08:03:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php:0
+[09-May-2018 08:03:36 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php on line 3
+[09-May-2018 08:03:36 UTC] PHP Stack trace:
+[09-May-2018 08:03:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php:0
+[09-May-2018 08:04:25 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php on line 2
+[09-May-2018 08:04:25 UTC] PHP Stack trace:
+[09-May-2018 08:04:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php:0
+[09-May-2018 08:04:25 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php on line 2
+[09-May-2018 08:04:25 UTC] PHP Stack trace:
+[09-May-2018 08:04:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php:0
+[09-May-2018 08:04:25 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php on line 3
+[09-May-2018 08:04:25 UTC] PHP Stack trace:
+[09-May-2018 08:04:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php:0
+[09-May-2018 08:04:26 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php on line 2
+[09-May-2018 08:04:26 UTC] PHP Stack trace:
+[09-May-2018 08:04:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php:0
+[09-May-2018 08:04:26 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php on line 2
+[09-May-2018 08:04:26 UTC] PHP Stack trace:
+[09-May-2018 08:04:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php:0
+[09-May-2018 08:04:26 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php on line 3
+[09-May-2018 08:04:26 UTC] PHP Stack trace:
+[09-May-2018 08:04:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php:0
+[09-May-2018 08:04:26 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php on line 2
+[09-May-2018 08:04:26 UTC] PHP Stack trace:
+[09-May-2018 08:04:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php:0
+[09-May-2018 08:04:26 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php on line 2
+[09-May-2018 08:04:26 UTC] PHP Stack trace:
+[09-May-2018 08:04:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php:0
+[09-May-2018 08:04:26 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php on line 3
+[09-May-2018 08:04:26 UTC] PHP Stack trace:
+[09-May-2018 08:04:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php:0
+[09-May-2018 08:04:27 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php on line 2
+[09-May-2018 08:04:27 UTC] PHP Stack trace:
+[09-May-2018 08:04:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php:0
+[09-May-2018 08:04:27 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php on line 2
+[09-May-2018 08:04:27 UTC] PHP Stack trace:
+[09-May-2018 08:04:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php:0
+[09-May-2018 08:04:27 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php on line 3
+[09-May-2018 08:04:27 UTC] PHP Stack trace:
+[09-May-2018 08:04:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php:0
+[09-May-2018 08:04:27 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php on line 2
+[09-May-2018 08:04:27 UTC] PHP Stack trace:
+[09-May-2018 08:04:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php:0
+[09-May-2018 08:04:27 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php on line 2
+[09-May-2018 08:04:27 UTC] PHP Stack trace:
+[09-May-2018 08:04:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php:0
+[09-May-2018 08:04:27 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php on line 3
+[09-May-2018 08:04:27 UTC] PHP Stack trace:
+[09-May-2018 08:04:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php:0
+[09-May-2018 08:04:27 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php on line 2
+[09-May-2018 08:04:27 UTC] PHP Stack trace:
+[09-May-2018 08:04:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php:0
+[09-May-2018 08:04:27 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php on line 2
+[09-May-2018 08:04:27 UTC] PHP Stack trace:
+[09-May-2018 08:04:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php:0
+[09-May-2018 08:04:27 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php on line 3
+[09-May-2018 08:04:27 UTC] PHP Stack trace:
+[09-May-2018 08:04:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php:0
+[09-May-2018 08:04:37 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php on line 2
+[09-May-2018 08:04:37 UTC] PHP Stack trace:
+[09-May-2018 08:04:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php:0
+[09-May-2018 08:04:37 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php on line 2
+[09-May-2018 08:04:37 UTC] PHP Stack trace:
+[09-May-2018 08:04:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php:0
+[09-May-2018 08:04:37 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php on line 3
+[09-May-2018 08:04:37 UTC] PHP Stack trace:
+[09-May-2018 08:04:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getAggInfo.php:0
+[09-May-2018 09:19:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'author.authorId' in 'on clause'' in /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getBookInfo.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getBookInfo.php(15): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getBookInfo.php on line 15
+[09-May-2018 09:19:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'author.authorId' in 'on clause'' in /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getBookInfo.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getBookInfo.php(15): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/elmanzo/projects/finalProject/api/getBookInfo.php on line 15

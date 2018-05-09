@@ -1,0 +1,112 @@
+[08-May-2018 07:47:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/elmanzo/projects/finalProject/updateProduct.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/elmanzo/projects/finalProject/updateProduct.php(29): PDOStatement->execute()
+#1 /home/ubuntu/workspace/elmanzo/projects/finalProject/updateProduct.php(64): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/elmanzo/projects/finalProject/updateProduct.php on line 29
+[08-May-2018 07:47:44 UTC] PHP Fatal error:  Cannot redeclare getGenres() (previously declared in /home/ubuntu/workspace/elmanzo/projects/finalProject/addBook.php:10) in /home/ubuntu/workspace/elmanzo/projects/finalProject/addBook.php on line 34
+[08-May-2018 07:48:53 UTC] PHP Fatal error:  Cannot redeclare getGenres() (previously declared in /home/ubuntu/workspace/elmanzo/projects/finalProject/addBook.php:10) in /home/ubuntu/workspace/elmanzo/projects/finalProject/addBook.php on line 34
+[08-May-2018 07:49:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'authorName' in 'field list'' in /home/ubuntu/workspace/elmanzo/projects/finalProject/addBook.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/elmanzo/projects/finalProject/addBook.php(29): PDOStatement->execute()
+#1 /home/ubuntu/workspace/elmanzo/projects/finalProject/addBook.php(91): getAuthors()
+#2 {main}
+  thrown in /home/ubuntu/workspace/elmanzo/projects/finalProject/addBook.php on line 29
+[08-May-2018 07:49:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/elmanzo/projects/finalProject/updateProduct.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/elmanzo/projects/finalProject/updateProduct.php(29): PDOStatement->execute()
+#1 /home/ubuntu/workspace/elmanzo/projects/finalProject/updateProduct.php(64): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/elmanzo/projects/finalProject/updateProduct.php on line 29
+[08-May-2018 07:49:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'authorName' in 'field list'' in /home/ubuntu/workspace/elmanzo/projects/finalProject/addBook.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/elmanzo/projects/finalProject/addBook.php(29): PDOStatement->execute()
+#1 /home/ubuntu/workspace/elmanzo/projects/finalProject/addBook.php(91): getAuthors()
+#2 {main}
+  thrown in /home/ubuntu/workspace/elmanzo/projects/finalProject/addBook.php on line 29
+[08-May-2018 07:50:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'authorName' in 'field list'' in /home/ubuntu/workspace/elmanzo/projects/finalProject/addBook.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/elmanzo/projects/finalProject/addBook.php(29): PDOStatement->execute()
+#1 /home/ubuntu/workspace/elmanzo/projects/finalProject/addBook.php(91): getAuthors()
+#2 {main}
+  thrown in /home/ubuntu/workspace/elmanzo/projects/finalProject/addBook.php on line 29
+[08-May-2018 07:53:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/elmanzo/projects/finalProject/addBook.php:60
+Stack trace:
+#0 /home/ubuntu/workspace/elmanzo/projects/finalProject/addBook.php(60): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/elmanzo/projects/finalProject/addBook.php on line 60
+[08-May-2018 07:55:21 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/elmanzo/projects/finalProject/addBook.php:60
+Stack trace:
+#0 /home/ubuntu/workspace/elmanzo/projects/finalProject/addBook.php(60): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/elmanzo/projects/finalProject/addBook.php on line 60
+[08-May-2018 07:57:08 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/elmanzo/projects/finalProject/deleteBook.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/elmanzo/projects/finalProject/deleteBook.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/elmanzo/projects/finalProject/deleteBook.php on line 9
+[08-May-2018 07:57:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/elmanzo/projects/finalProject/deleteBook.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/elmanzo/projects/finalProject/deleteBook.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/elmanzo/projects/finalProject/deleteBook.php on line 9
+[08-May-2018 07:58:08 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/elmanzo/projects/finalProject/deleteBook.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/elmanzo/projects/finalProject/deleteBook.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/elmanzo/projects/finalProject/deleteBook.php on line 9
+[08-May-2018 08:00:08 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/elmanzo/projects/finalProject/updateProduct.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/elmanzo/projects/finalProject/updateProduct.php(29): PDOStatement->execute()
+#1 /home/ubuntu/workspace/elmanzo/projects/finalProject/updateProduct.php(64): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/elmanzo/projects/finalProject/updateProduct.php on line 29
+[08-May-2018 08:00:12 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/elmanzo/projects/finalProject/deleteBook.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/elmanzo/projects/finalProject/deleteBook.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/elmanzo/projects/finalProject/deleteBook.php on line 9
+[08-May-2018 08:01:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/elmanzo/projects/finalProject/updateProduct.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/elmanzo/projects/finalProject/updateProduct.php(29): PDOStatement->execute()
+#1 /home/ubuntu/workspace/elmanzo/projects/finalProject/updateProduct.php(64): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/elmanzo/projects/finalProject/updateProduct.php on line 29
+[08-May-2018 08:17:03 UTC] PHP Fatal error:  Call to undefined function getCategories() in /home/ubuntu/workspace/elmanzo/projects/finalProject/updateBook.php on line 114
+[08-May-2018 08:17:03 UTC] PHP Stack trace:
+[08-May-2018 08:17:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/projects/finalProject/updateBook.php:0
+[08-May-2018 08:18:15 UTC] PHP Fatal error:  Call to undefined function getGenres() in /home/ubuntu/workspace/elmanzo/projects/finalProject/updateBook.php on line 115
+[08-May-2018 08:18:15 UTC] PHP Stack trace:
+[08-May-2018 08:18:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/projects/finalProject/updateBook.php:0
+[08-May-2018 08:18:17 UTC] PHP Fatal error:  Call to undefined function getGenres() in /home/ubuntu/workspace/elmanzo/projects/finalProject/updateBook.php on line 115
+[08-May-2018 08:18:17 UTC] PHP Stack trace:
+[08-May-2018 08:18:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/projects/finalProject/updateBook.php:0
+[08-May-2018 08:18:19 UTC] PHP Fatal error:  Call to undefined function getGenres() in /home/ubuntu/workspace/elmanzo/projects/finalProject/updateBook.php on line 115
+[08-May-2018 08:18:19 UTC] PHP Stack trace:
+[08-May-2018 08:18:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/projects/finalProject/updateBook.php:0
+[08-May-2018 08:21:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/elmanzo/projects/finalProject/updateBook.php:75
+Stack trace:
+#0 /home/ubuntu/workspace/elmanzo/projects/finalProject/updateBook.php(75): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/elmanzo/projects/finalProject/updateBook.php on line 75
+[08-May-2018 09:47:02 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/elmanzo/projects/finalProject/index.php on line 3
+[08-May-2018 09:47:02 UTC] PHP Stack trace:
+[08-May-2018 09:47:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/projects/finalProject/index.php:0
+[08-May-2018 09:47:02 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/elmanzo/projects/finalProject/index.php on line 3
+[08-May-2018 09:47:02 UTC] PHP Stack trace:
+[08-May-2018 09:47:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/projects/finalProject/index.php:0
+[08-May-2018 09:47:02 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/elmanzo/projects/finalProject/index.php on line 144
+[08-May-2018 09:47:02 UTC] PHP Stack trace:
+[08-May-2018 09:47:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/projects/finalProject/index.php:0
+[08-May-2018 09:47:11 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/elmanzo/projects/finalProject/index.php on line 3
+[08-May-2018 09:47:11 UTC] PHP Stack trace:
+[08-May-2018 09:47:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/projects/finalProject/index.php:0
+[08-May-2018 09:47:11 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/elmanzo/projects/finalProject/index.php on line 3
+[08-May-2018 09:47:11 UTC] PHP Stack trace:
+[08-May-2018 09:47:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/projects/finalProject/index.php:0
+[08-May-2018 09:47:11 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/elmanzo/projects/finalProject/index.php on line 144
+[08-May-2018 09:47:11 UTC] PHP Stack trace:
+[08-May-2018 09:47:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/projects/finalProject/index.php:0
+[09-May-2018 04:30:31 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/elmanzo/projects/finalProject/adminLogin.php on line 47
+[09-May-2018 04:30:31 UTC] PHP Stack trace:
+[09-May-2018 04:30:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/elmanzo/projects/finalProject/adminLogin.php:0
