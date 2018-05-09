@@ -58,7 +58,7 @@ function displayAllBooks(){
     </head>
     <body class = 'bg-dark'>
 
-        <h1 class="display-3">Catalog!</h1>
+        <h1 class="display-3">Admin Panel</h1>
         <div class = "container">    
             <h2 class = 'display-4' id = "welcome" ><strong> Welcome <?=$_SESSION['adminName']?>! </strong></h3>
             
