@@ -118,7 +118,6 @@ function displayAllBooks(){
               </a>
             </p>
             <div class="collapse" id="collapseExample2">
-                shit shit
             </div>
             
             
