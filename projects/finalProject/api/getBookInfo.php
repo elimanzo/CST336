@@ -5,8 +5,8 @@
     $conn = getDatabaseConnection('bookstore');
     
    $sql = "SELECT * FROM books
-           NATURAL JOIN genres 
-           NATURAL JOIN authors
+           NATURAL JOIN authors 
+           NATURAL JOIN genres
            WHERE bookId = :bookId"; 
                 
     $stmt = $conn->prepare($sql);  
