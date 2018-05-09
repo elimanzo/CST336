@@ -16,6 +16,26 @@ function displayAllBooks(){
     $records = $statement->fetchAll(PDO::FETCH_ASSOC);
     return $records;
 }
+
+function displayAllAuthors(){
+    global $conn;
+    $sql="SELECT * FROM authors ORDER BY authorId";
+    $statement = $conn->prepare($sql);
+    $statement->execute();
+    $records = $statement->fetchAll(PDO::FETCH_ASSOC);
+    return $records;
+}
+
+function displayAllGenres(){
+    global $conn;
+    $sql="SELECT * FROM genres ORDER BY genreId";
+    $statement = $conn->prepare($sql);
+    $statement->execute();
+    $records = $statement->fetchAll(PDO::FETCH_ASSOC);
+    return $records;
+}
+
+
 ?>
 
 <!DOCTYPE html>
@@ -38,11 +58,11 @@ function displayAllBooks(){
                         dataType: "json",
                         data: { "id" : "" },
                         success: function(data,status) {
-                                $("#collapseExample2").html("");
-                                $("#collapseExample2").append("<strong>Total Books:</strong> " + data[0].totalBooks + "<br><br>");
-                                $("#collapseExample2").append("<strong>Average Book Price:</strong>  $" + data[0].average + "<br><br>");
-                                $("#collapseExample2").append("<strong>Max Book Price:</strong>  $" + data[0].max + "<br><br>");
-                                $("#collapseExample2").append("<strong>Min Book Price:</strong>  $" + data[0].min + "<br><br>");
+                                $("#Agg").html("");
+                                $("#Agg").append("<strong>Total Books:</strong> " + data[0].totalBooks + "<br><br>");
+                                $("#Agg").append("<strong>Average Book Price:</strong>  $" + data[0].average + "<br><br>");
+                                $("#Agg").append("<strong>Max Book Price:</strong>  $" + data[0].max + "<br><br>");
+                                $("#Agg").append("<strong>Min Book Price:</strong>  $" + data[0].min + "<br><br>");
                         }
                     });
                 });
@@ -50,6 +70,16 @@ function displayAllBooks(){
             function confirmDelete() {
                 
                 return confirm("Are you sure you want to delete the book?");
+                
+            }
+            function confirmDelete2() {
+                
+                return confirm("Are you sure you want to delete the author?");
+                
+            }
+            function confirmDelete3() {
+                
+                return confirm("Are you sure you want to delete the author?");
                 
             }
             
@@ -67,16 +97,24 @@ function displayAllBooks(){
                 <input type="submit" class = 'btn btn-secondary' id = "beginning" name="addbook" value="Add Book"/>
             </form>
             <br/>
+            <form action="addAuthor.php">
+                <input type="submit" class = 'btn btn-secondary' id = "beginning" name="addauthor" value="Add Author"/>
+            </form>
+            <br/>
+            <form action="addGenre.php">
+                <input type="submit" class = 'btn btn-secondary' id = "beginning" name="addgenre" value="Add Genre"/>
+            </form>
+            <br/>
             <form action="logout.php">
                 <input type="submit" class = 'btn btn-secondary' id = "beginning" value="Logout"/>
             </form>
             <br/>
             <p>
-            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#bookTable" aria-expanded="false" aria-controls="bookTable">
                 Show Book Information
             </button>
             </p>
-            <div class="collapse" id="collapseExample">
+            <div class="collapse" id="bookTable">
                     <br /> <br />
                     <h2 class = 'display-4' id = "welcome" > Books </h3><br />
                     <?php $records=displayAllBooks();
@@ -113,11 +151,85 @@ function displayAllBooks(){
                     ?>
             </div>
             <p>
-              <a class="btn btn-primary" id="getData" data-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample2">
+            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#authorTable" aria-expanded="false" aria-controls="authorTable">
+                Show Author Information
+            </button>
+            </p>
+            <div class="collapse" id="authorTable">
+                    <br /> <br />
+                    <h2 class = 'display-4' id = "welcome" > Authors </h3><br />
+                    <?php $records=displayAllAuthors();
+                        echo "<table class='table table-hover'>";
+                        echo "<thead> 
+                                <tr>
+                                  <th scope='col'>ID</th>
+                                  <th scope='col'>First Name</th>
+                                  <th scope='col'>Last Name</th>
+                                  <th scope='col'>Gender</th>
+                                  <th scope='col'>Age</th>
+                                  <th scope='col'>Update</th>
+                                  <th scope='col'>Remove</th>
+                                 </tr>
+                                </thead>";
+                        echo"<tbody>";
+                        foreach($records as $record) {
+                            echo "<tr>";
+                            echo "<td>" .$record['authorId']."</td>";
+                            echo "<td>" .$record["firstName"]."</td>";
+                            echo "<td>" .$record["lastName"]."</td>";
+                            echo "<td>" .$record["gender"]."</td>";
+                            echo "<td>" .$record["age"]."</td>";
+                            echo "<td><a class='btn btn-primary' href='updateAuthor.php?authorId=".$record['authorId']."'>Update</a></td>";
+                            echo "<form action='deleteAuthor.php' onsubmit='return confirmDelete2()'>";
+                            echo "<input type='hidden' name='authorId' value= " . $record['authorId'] . " />";
+                            echo "<td><input type='submit' class = 'btn btn-danger' value='Remove'></td>";
+                            echo "</form>";
+                        }
+                        echo"</tbody>";
+                        echo"</table> ";
+                    ?>
+            </div>
+            <p>
+            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#genreTable" aria-expanded="false" aria-controls="genreTable">
+                Show Genre Information
+            </button>
+            </p>
+            <div class="collapse" id="genreTable">
+                    <br /> <br />
+                    <h2 class = 'display-4' id = "welcome" > Genres </h3><br />
+                    <?php $records=displayAllGenres();
+                        echo "<table class='table table-hover'>";
+                        echo "<thead> 
+                                <tr>
+                                  <th scope='col'>ID</th>
+                                  <th scope='col'>Genre Name</th>
+                                  <th scope='col'>Genre Description</th>
+                                  <th scope='col'>Update</th>
+                                  <th scope='col'>Remove</th>
+                                 </tr>
+                                </thead>";
+                        echo"<tbody>";
+                        foreach($records as $record) {
+                            echo "<tr>";
+                            echo "<td>" .$record['genreId']."</td>";
+                            echo "<td>" .$record["genreName"]."</td>";
+                            echo "<td>" .$record["genreDescription"]."</td>";
+                            echo "<td><a class='btn btn-primary' href='updateGenre.php?genreId=".$record['genreId']."'>Update</a></td>";
+                            echo "<form action='deleteGenre.php' onsubmit='return confirmDelete3()'>";
+                            echo "<input type='hidden' name='genreId' value= " . $record['genreId'] . " />";
+                            echo "<td><input type='submit' class = 'btn btn-danger' value='Remove'></td>";
+                            echo "</form>";
+                        }
+                        echo"</tbody>";
+                        echo"</table> ";
+                    ?>
+            </div>
+            <p>
+              <a class="btn btn-primary" id="getData" data-toggle="collapse" href="#Agg" role="button" aria-expanded="false" aria-controls="Agg">
                 Data Analysis 
               </a>
             </p>
-            <div class="collapse" id="collapseExample2">
+            <div class="collapse" id="Agg">
             </div>
             
             
